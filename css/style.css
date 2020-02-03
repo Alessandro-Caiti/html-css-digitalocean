@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    padding: 120px 0;
+}
+
+.my--gray-section {
+    background-color: #f3f5f9;
+}
+
+.my--white-section {
+
+}
+
+.my--blue-section {
+
+}
+
+h1 {
+    font-size: 64px;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 36px;
+    color: #031b4e;
+}
+/* navbar */
+
+.navbar-default {
+    background-color: white;
+}
+
+.my--logo-img {
+    transform: translateY(-105px);
+}
+
+a {
+    color: #0069ff;
+}
+
+/* banner titolo */
+
+.my--title-section {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    background-color: rgb(2, 72, 255);
+    padding-top: 190px;
+}
+
+.my--title-banner {
+    padding-top: 70px;
+    padding-right: 50px;
+}
+
+.my--title-banner p {
+    color: white;
+    opacity: .8;
+    font-size: 24px;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.btn-default {
+    background-color: #0069ff;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 48px;
+}
+
+.personal-divider {
+    color: #5b6987;
+    font-size: 16px;
+}
+
+.personal-divider::before,
+.personal-divider::after {
+    content: '';
+    display: inline-block;
+    width: 33%;
+    height: 1px;
+    background-color: currentcolor;
+    position: relative;
+    bottom: 5px;
+}
+
+
+/* business solutions */
+
+.my--business-solutions {
+    padding: 64px 0;
+}
+
+.my--business-solutions h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: .4;
+}
