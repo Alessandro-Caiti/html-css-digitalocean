@@ -6,9 +6,11 @@
         <title>Digital Ocean Boolean</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5e15826193.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+
         <header>
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
@@ -20,7 +22,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img class="my--logo-img" src="https://cdn.freebiesupply.com/logos/thumbs/1x/digitalocean-2-logo.png" alt="DigitalOcean logo"></a>
+                        <a class="navbar-brand" href="#"><img class="my--logo-img" src="img/logo.png" alt="DigitalOcean logo"></a>
                     </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -39,6 +41,7 @@
                 </div><!-- /.container-fluid -->
             </nav>
         </header>
+
         <section class="my--title-section">
             <div class="container">
                 <div class="row">
@@ -50,7 +53,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <div class="jumbotron">
-                            <h2 class="text-center">Deploy in seconds</h2>
+                            <h2 class="text-center">Deploy your app in seconds</h2>
                             <form>
                                 <div class="form-group">
                                     <input type="name" class="form-control" id="exampleInputName" placeholder="Full Name">
@@ -61,65 +64,265 @@
                                 <div class="form-group">
                                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Create a password">
                                 </div>
-                                <button type="submit" class="btn btn-default btn-block">Create your account</button>
+                                <button type="submit" class="btn btn-default btn-block my--btn-blue">Create your account</button>
                             </form>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="personal-divider">
-                                        <span>or sign up with</span>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6">
-                                    <button type="button" name="button"></button>
-                                </div>
-                                <div class="col-xs-6">
-                                    <button type="button" name="button"></button>
-                                </div>
-                            </div>
+                            <button class="btn btn-default btn-block my--btn-white" type="submit">Sign up with Google</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <section class="my--gray-section my--business-solutions">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 text-center">
                         <h2>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h2>
                     </div>
-                    <div class="col-xs-6 col-sm-2">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="">
-                    </div>
-                    <div class="col-xs-6 col-sm-2">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="">
-                    </div>
-                    <div class="col-xs-6 col-sm-2">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="">
-                    </div>
-                    <div class="col-xs-6 col-sm-2">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="">
-                    </div>
-                    <div class="col-xs-6 col-sm-2">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="">
-                    </div>
-                    <div class="col-xs-6 col-sm-2">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-12">
+                            <ul class="list-inline">
+                                <li><img class="img-respondive" src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt=""></li>
+                                <li><img class="img-respondive" src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt=""></li>
+                                <li><img class="img-respondive" src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt=""></li>
+                                <li><img class="img-respondive" src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt=""></li>
+                                <li><img class="img-respondive" src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt=""></li>
+                                <li><img class="img-respondive" src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt=""></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-xs-12 text-center">
-                        <a href="#">See business solutions</a>
+                        <a href="#">See business solutions<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
                     </div>
                 </div>
             </div>
         </section>
+
         <section class="my--white-section my--deploy-scale">
-            <div class="col-xs-12">
-                <h2></h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="text-center">Deploy and scale seamlessly</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p class="text-center">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 col-sm-offset-1">
+                        <ul>
+                            <li>Deploy</li>
+                            <li>Scale</li>
+                            <li>Store</li>
+                            <li>Secure</li>
+                            <li>Monitor</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <h3>Kubernetes in minutes</h3>
+                                <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <h3>Kubernetes in minutes</h3>
+                                <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <h3>Kubernetes in minutes</h3>
+                                <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <h3>Kubernetes in minutes</h3>
+                                <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-12">
-                <p></p>
+        </section>
+
+        <section class="my--gray-section my--designed-for text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2>Designed for developers</h2>
+                    </div>
+                    <div class="col-xs-12">
+                        <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">
+                            <img class="img-responsive" src="https://www.digitalocean.com/assets/media/homepage/screenshot-create-kubernetes-cluster-4a930955.jpg" alt="Esempio Digital Ocean">
+                        </div>
+                        <div class="col-xs-12">
+                            <p>Create compute servers in 55 seconds or less.</p>
+                        </div>
+                        <div class="col-xs-12">
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my--white-section my--built-for">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="text-center">Built for business</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+                            <p class="built-for-title">Reliable platform</p>
+                            <p class="built-for-text">More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
+                            <a href="#">Security<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <p class="built-for-title">Predictable pricing</p>
+                            <p class="built-for-text">Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.</p>
+                            <a href="#">Pricing<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <p class="built-for-title">World-class service</p>
+                            <p class="built-for-text">Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.</p>
+                            <a href="#">Support<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my--blue-section my--service-world">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="text-center">Service your customers around the world from 12 data centers.</h2>
+                    </div>
+                </div>
+
             </div>
 
         </section>
+
+        <section class="my--gray-section text-center my--development-love">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2>Development teams love DigitalOcean</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">
+                            <div class="jumbotron">
+                                <div class="">
+                                    <img src="https://www.digitalocean.com/assets/media/homepage/teams/rockerbox-logo-51462da2.png" alt="RockerBox Logo">
+                                    <p>“We have been able to make scaling the technical infrastructure of our business cost effective and efficient.”</p>
+                                    <p>Rick O’Toole <br> Co-founder and CTO </p>
+                                    <a href="#">Read story<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my--footer-banner text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2>Get started now.</h2>
+                    </div>
+                    <div class="col-xs-12">
+                        <a class="btn-default" href="#">Create your account</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3">
+                        <img src="img/logo-white.png" alt="Logo white">
+                        <p>© 2020 DigitalOcean, LLC. All rights reserved.</p>
+                        <p>Proudly made by me</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-2">
+                        <ul>
+                            <li>Company</li>
+                            <li>About</li>
+                            <li>Leadership</li>
+                            <li>Link</li>
+                            <li>Blog</li>
+                            <li>Careers</li>
+                            <li>Partner Network</li>
+                            <li>Referral Program</li>
+                            <li>Events</li>
+                            <li>Press</li>
+                            <li>Legal & Security</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-2">
+                        <ul>
+                            <li>Company</li>
+                            <li>About</li>
+                            <li>Leadership</li>
+                            <li>Link</li>
+                            <li>Blog</li>
+                            <li>Careers</li>
+                            <li>Partner Network</li>
+                            <li>Referral Program</li>
+                            <li>Events</li>
+                            <li>Press</li>
+                            <li>Legal & Security</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-2">
+                        <ul>
+                            <li>Company</li>
+                            <li>About</li>
+                            <li>Leadership</li>
+                            <li>Link</li>
+                            <li>Blog</li>
+                            <li>Careers</li>
+                            <li>Partner Network</li>
+                            <li>Referral Program</li>
+                            <li>Events</li>
+                            <li>Press</li>
+                            <li>Legal & Security</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-2">
+                        <ul>
+                            <li>Company</li>
+                            <li>About</li>
+                            <li>Leadership</li>
+                            <li>Link</li>
+                            <li>Blog</li>
+                            <li>Careers</li>
+                            <li>Partner Network</li>
+                            <li>Referral Program</li>
+                            <li>Events</li>
+                            <li>Press</li>
+                            <li>Legal & Security</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
     </body>
 </html>

@@ -15,7 +15,9 @@ section {
 }
 
 .my--blue-section {
-
+    background-color: #031b4e;
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
+    background-size: cover;
 }
 
 h1 {
@@ -26,6 +28,13 @@ h1 {
 
 h2 {
     font-size: 36px;
+    font-weight: bold;
+    color: #031b4e;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
     color: #031b4e;
 }
 /* navbar */
@@ -35,7 +44,7 @@ h2 {
 }
 
 .my--logo-img {
-    transform: translateY(-105px);
+    transform: translateY(-10px);
 }
 
 a {
@@ -65,7 +74,7 @@ a {
     background-color: white;
 }
 
-.btn-default {
+.my--btn-blue {
     background-color: #0069ff;
     color: white;
     font-weight: bold;
@@ -73,22 +82,14 @@ a {
     height: 48px;
 }
 
-.personal-divider {
-    color: #5b6987;
+.my--btn-white {
+    background-color: white;
+    color: black;
+    font-weight: bold;
     font-size: 16px;
+    height: 48px;
+    margin-top: 10px;
 }
-
-.personal-divider::before,
-.personal-divider::after {
-    content: '';
-    display: inline-block;
-    width: 33%;
-    height: 1px;
-    background-color: currentcolor;
-    position: relative;
-    bottom: 5px;
-}
-
 
 /* business solutions */
 
@@ -101,4 +102,67 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     opacity: .4;
+}
+
+.my--business-solutions a {
+    font-weight: bold;
+}
+
+
+/* deploy scale */
+
+.my--deploy-scale p:first-child {
+    font-size: 20px;
+    color: rgba(3,27,78,.7);
+}
+
+.my--deploy-scale p {
+    font-size: 16px;
+    color: rgba(3,27,78,.7);
+}
+
+/* designedfor-section */
+
+.my--designed-for p:first-child {
+    font-size: 20px;
+    color: rgba(3,27,78,.7);
+}
+
+/* built for */
+
+.built-for-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #031b4e;
+}
+
+.built-for-text {
+    font-size: 16px;
+    color: rgba(3,27,78,.7);
+}
+
+/* service world */
+
+.my--service-world h2 {
+    color: white;
+}
+
+/* footer banner */
+
+.my--footer-banner {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    background-color: rgb(2, 72, 255);
+    padding: 64px 0;
+}
+
+.my--footer-banner h2 {
+    font-size: 30px;
+    color: white;
+}
+
+/* footer */
+
+footer {
+    background-color: #031b4e;
+    padding: 64px 0;
 }
