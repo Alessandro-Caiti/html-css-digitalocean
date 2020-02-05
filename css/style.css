@@ -121,6 +121,10 @@ a {
     color: rgba(3,27,78,.7);
 }
 
+
+.my--deploy-scale li {
+    border-left: 1px solid #0069ff;
+}
 /* designedfor-section */
 
 .my--designed-for p:first-child {
@@ -145,8 +149,31 @@ a {
 
 .my--service-world h2 {
     color: white;
+    margin-bottom: 40px;
 }
 
+.table {
+    margin-bottom: 40px;
+}
+
+.table>tbody>tr>td {
+    color: white;
+    opacity: .6;
+    font-size: 13px;
+    border-top: none;
+    border-bottom: 1px solid white;
+}
+
+.my--title-td {
+    opacity: 1 !important;
+    font-weight: bold;
+}
+
+.my--td-link {
+    opacity: 1;
+    color: #00d7d2;
+    font-weight: bold;
+}
 /* footer banner */
 
 .my--footer-banner {
